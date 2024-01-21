@@ -3,23 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barbearia Seu Liah</title>
-    <link rel="stylesheet" href="estilos/style.css">
-    
+    <title>Formulário</title>
 </head>
 <body>
-    <main>
-        <header>Barbearia</header>
-    </main>
-    <article>
-        <h2>Corte 1</h2>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi eos quis vero ducimus commodi deleniti dolore obcaecati rem provident architecto perferendis repellendus, quos harum? Voluptatibus rerum et id suscipit soluta?
-        <p>Texto do artigo</p>
-    </article>
-    <article>
-        <h2>Corte 2</h2>
-        <p>Texto do artigo 002</p>
+    <form>
+        <label>Razão Social:</label>
+        <input type="text" name="f_nome"/>
 
-    </article>
+        <label>CNPJ:</label>
+        <input type="text" name="f_cnpj">
+
+        <label>Inscrição Estadual:</label>
+        <input type="text" name="f_incricao">
+        
+        <label>E-mail:</label>
+        <input type="email" name="f_email">
+
+        <label>Senha:</label>
+        <input type="password" name="f_senha">
+
+        <label>Data de abertura:</label>
+        <input type="date" name="f_abertura">
+
+        <input type="submit" name="brn_enviar" value="Enviar">
+    </form>
 </body>
 </html>
